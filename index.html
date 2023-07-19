@@ -3,6 +3,8 @@
 <head>
   <title>Stopwatch</title>
   <link rel="stylesheet" href="styles/stopwatch.css">
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/github-link.css">
 </head>
   <body>
     <!---->
@@ -10,7 +12,6 @@
       <div class="stopwatch-border">
         <div class="stopwatch-text js-stopwatch-text">00:00.00</div>
         <div class="lap-stopwatch-text js-lap-stopwatch-text"></div>
-        <div class="js-lap-stopwatch-text"></div>
       </div>
       <div class="stopwatch-buttons">
         <button class="start-continue-button js-start-continue-button">Start</button>
@@ -23,9 +24,12 @@
       </div>
       <div class="lap-grid js-lap-grid"></div>
     </div>
-    <a class="my-github-link" href="https://github.com/Yonatan-Rozen">
-      More Projects
-    </a>
+    <div class="bottom-section">
+      <img class="github-profile-picture" src="images/github-profile-picture.jpg">
+      <a class="my-github-link" href="https://github.com/Yonatan-Rozen">
+        <p class="">> Yonatan Rozen (My GitHub Profile)</p>
+      </a>
+    </div>
     <!---->
     <script src="scripts/stopwatch.js"></script>
   </body>
