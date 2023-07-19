@@ -2,26 +2,37 @@ body{
   background-color: rgb(15, 15, 15);
   color: white;
   font-family: arial;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 100px;
+  height: 650px;
+}
+
+.my-github-link{
+  font-size: 200;
+  margin-bottom: 10px;
 }
 
 .stopwatch {
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
-  border: 5px double purple;
+  justify-content: space-between;
+  border: 5px solid purple;
+  border-style: outset double;
   padding-bottom: 20px;
   border-radius: 20px;
-  max-width: 400px;
-  min-width: 400px;
+  width: 400px;
 }
 
 .stopwatch-border {
   font-size: 60px;
   margin: 35px;
-  width: 325px;
-  height: 150px;
-  outline: dashed 5px rgb(47, 0, 255);
-  /* Center vertically and horizontally */
+  padding: 20px 0px 40px 0px;
+  outline: dashed 4px rgb(47, 0, 255);
   display: flex;
   justify-content: center;
   align-items: center;
